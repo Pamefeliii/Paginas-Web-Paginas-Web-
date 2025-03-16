@@ -1,4 +1,5 @@
 // feat(js): implementar funcionalidad de cambio de idioma con almacenamiento local
+
 document.addEventListener("DOMContentLoaded", () => {
     // Diccionario de traducciones
     const translations = {
