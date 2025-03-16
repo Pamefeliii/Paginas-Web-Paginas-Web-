@@ -413,6 +413,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (footerSection) {
         socialIconsObserver.observe(footerSection);
     }
+    
 // feat(js): agregar animaciones de entrada al hacer scroll para elementos
 
         // === Agregar animaciones al hacer scroll ===
