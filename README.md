@@ -21,7 +21,7 @@ Este proyecto es una página web interactiva desarrollada con HTML, CSS y JavaSc
  │   ├──📄 ggg.css (Hojas de estilo)
  │   ├── 📄 script.js (Scripts de animación e interactividad)
  │   ├── 📁 img (Imágenes y recursos gráficos)
- ├── 📄 lll.html
+ ├── 📄 index.html
  ├── 📄 README.md
 ```
 
