@@ -453,7 +453,8 @@ document.addEventListener("DOMContentLoaded", () => {
             element.classList.remove("active-animation");
         });
     };
-      // feat(js): agregar animaciones de hover en enlaces y botones
+      
+    // feat(js): agregar animaciones de hover en enlaces y botones
         // Activar la animación para cada uno de los elementos
     toggleAnimationOnHover(navbar);
     elementos.forEach(elemento => toggleAnimationOnHover(elemento));
