@@ -1,3 +1,4 @@
+// feat(js): implementar funcionalidad de cambio de idioma con almacenamiento local
 document.addEventListener("DOMContentLoaded", () => {
     // Diccionario de traducciones
     const translations = {
@@ -411,10 +412,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (footerSection) {
         socialIconsObserver.observe(footerSection);
     }
+// feat(js): agregar animaciones de entrada al hacer scroll para elementos
 
-    // Animación del logo del footer con cubo
-    
-  
         // === Agregar animaciones al hacer scroll ===
         const observer = new IntersectionObserver(entries => {
             entries.forEach(entry => {
@@ -432,7 +431,7 @@ document.addEventListener("DOMContentLoaded", () => {
         setTimeout(() => {
             navLinks.classList.add("animar");
         }, 300);
-    
+    // feat(js): agregar animaciones de entrada al hacer scroll para elementos
         // === Cambiar la navbar al hacer scroll ===
         window.addEventListener("scroll", () => {
             if (window.scrollY > 50) {
@@ -441,6 +440,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 navbar.classList.remove("scrolled");
             }
         });
+        // feat(js): agregar animaciones de hover en enlaces y botones
+
             // Función para agregar y quitar animación al pasar el mouse
     const toggleAnimationOnHover = (element) => {
         element.addEventListener("mouseenter", () => {
@@ -622,7 +623,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Aquí puedes agregar la lógica para cambiar el idioma según el idioma seleccionado.
 
-
+// feat(js): implementar funcionalidad de cambio de idioma con almacenamiento local
     // Elementos de los botones
     const btnEs = document.getElementById("btn-es");
     const btnEn = document.getElementById("btn-en");
@@ -813,7 +814,7 @@ document.addEventListener("DOMContentLoaded", () => {
             testimonialContent.style.animation = "slideInRight 1s ease-in-out";
         }
     }, 1200);
-    
+    // feat(js): agregar animación de hover para imágenes en la galería o sección de características
         featureImages.forEach(img => {
             img.addEventListener("mouseenter", () => {
                 img.style.transform = "scale(1.2) rotate(45deg)";
@@ -919,7 +920,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Animación del logo del footer con cubo
-    
+    // feat(js): implementar IntersectionObserver para animaciones al hacer scroll
+
   
         // === Agregar animaciones al hacer scroll ===
         const observer = new IntersectionObserver(entries => {
@@ -938,7 +940,8 @@ document.addEventListener("DOMContentLoaded", () => {
         setTimeout(() => {
             navLinks.classList.add("animar");
         }, 300);
-    
+    // feat(js): agregar animaciones de entrada al hacer scroll para elementos
+
         // === Cambiar la navbar al hacer scroll ===
         window.addEventListener("scroll", () => {
             if (window.scrollY > 50) {
@@ -956,7 +959,8 @@ document.addEventListener("DOMContentLoaded", () => {
             element.classList.remove("active-animation");
         });
     };
-    
+    // feat(js): agregar animaciones de hover en enlaces y botones
+
         // Activar la animación para cada uno de los elementos
     toggleAnimationOnHover(navbar);
     elementos.forEach(elemento => toggleAnimationOnHover(elemento));
