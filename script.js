@@ -1,7 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Diccionario de traducciones
-document.addEventListener("DOMContentLoaded", () => {
-    // Diccionario de traducciones
     const translations = {
         en: {
             home: "Home",
