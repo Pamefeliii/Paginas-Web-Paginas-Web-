@@ -29,6 +29,7 @@ Este proyecto es una página web interactiva desarrollada con HTML, CSS y JavaSc
 1. el repositorio:
   https://github.com/Pamefeliii/Paginas-Web-Paginas-Web-
 2. el proyecto:
+   https://pamefeliii.github.io/Paginas-Web-Paginas-Web-/
    
  
 ## 🎯 Próximas Mejoras
